@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAL CORCH - Valorant Coach</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+<!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">VAL CORCH</div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">ГЛАВНАЯ</a></li>
+                        <li><a href="page2.html">МОИ ДОСТИЖЕНИЯ</a></li>
+                        <li><a href="page3.html">ТРЕНИРОВКИ</a></li>
+                        <li><a href="page4.html" class="active">ПРОГРАММЫ ОБУЧЕНИЯ</a></li>
+                        <li><a href="#" id="open-application-link">ОСТАВИТЬ ЗАЯВКУ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<!-- Герой-секция -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Программы обучения</h1>
+            <p class="hero-subtitle">Я предлагаю несколько программ обучения, адаптированных под разные уровни подготовки и цели. Каждая программа включает индивидуальный подход и гарантированный результат.</p>
+        </div>
+    </section>
+
+<!-- Основной контент -->
+    <main class="main-content">
+        <div class="container py-5">
+            <!-- Курсы -->
+            <div class="section-header">
+                <h2 class="section-title">Выберите подходящую программу</h2>
+                <p class="section-subtitle">Все курсы включают индивидуальный подход и персональные рекомендации</p>
+            </div>
+            
+            <div class="row mb-5">
+<!-- Базовый курс -->
+                <div class="col-lg-4 mb-4">
+                    <div class="course-card">
+                        <div class="course-badge">Популярный</div>
+                        <h3 class="course-title">Базовый курс</h3>
+                        <div class="course-subtitle">Для новичков (Iron-Bronze)</div>
+                        <div class="course-price">12 000 руб.</div>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-check-circle"></i> 10 индивидуальных занятий по 60 минут</li>
+                            <li><i class="bi bi-check-circle"></i> Анализ 5 записей ваших игр</li>
+                            <li><i class="bi bi-check-circle"></i> Основы механики и тактики</li>
+                            <li><i class="bi bi-check-circle"></i> Изучение карт и агентов</li>
+                            <li><i class="bi bi-check-circle"></i> Персональные рекомендации</li>
+                            <li><i class="bi bi-check-circle"></i> Поддержка между занятиями</li>
+                        </ul>
+                        <button class="btn-select" data-course="Базовый курс">Выбрать программу</button>
+                    </div>
+                </div>
+                
+<!-- Продвинутый курс -->
+                <div class="col-lg-4 mb-4">
+                    <div class="course-card featured">
+                        <div class="course-badge">Рекомендуемый</div>
+                        <h3 class="course-title">Продвинутый курс</h3>
+                        <div class="course-subtitle">Для опытных игроков (Silver-Gold)</div>
+                        <div class="course-price">18 000 руб.</div>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-check-circle"></i> 12 индивидуальных занятий по 60 минут</li>
+                            <li><i class="bi bi-check-circle"></i> Анализ 8 записей ваших игр</li>
+                            <li><i class="bi bi-check-circle"></i> Улучшенная работа над механикой</li>
+                            <li><i class="bi bi-check-circle"></i> Тактическое мышление и анализ</li>
+                            <li><i class="bi bi-check-circle"></i> Работа в команде</li>
+                            <li><i class="bi bi-check-circle"></i> Еженедельные отчеты о прогрессе</li>
+                        </ul>
+                        <button class="btn-select btn-pulse" data-course="Продвинутый курс">Выбрать программу</button>
+                    </div>
+                </div>
+                
+<!-- Профессиональный курс -->
+                <div class="col-lg-4 mb-4">
+                    <div class="course-card">
+                        <div class="course-badge">Премиум</div>
+                        <h3 class="course-title">Профессиональный курс</h3>
+                        <div class="course-subtitle">Для серьезных игроков (Platinum+)</div>
+                        <div class="course-price">25 000 руб.</div>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-check-circle"></i> 16 индивидуальных занятий по 60 минут</li>
+                            <li><i class="bi bi-check-circle"></i> Анализ 12 записей ваших игр</li>
+                            <li><i class="bi bi-check-circle"></i> Индивидуальная стратегия развития</li>
+                            <li><i class="bi bi-check-circle"></i> Подготовка к турнирам</li>
+                            <li><i class="bi bi-check-circle"></i> Психологическая подготовка</li>
+                            <li><i class="bi bi-check-circle"></i> Пожизненный доступ к материалам</li>
+                        </ul>
+                        <button class="btn-select" data-course="Профессиональный курс">Выбрать программу</button>
+                    </div>
+                </div>
+            </div>
+            
+<!-- Дополнительные услуги -->
+            <div class="section-header">
+                <h2 class="section-title">Дополнительные услуги</h2>
+                <p class="section-subtitle">Решите конкретные задачи без прохождения полного курса</p>
+            </div>
+            
+            <div class="row mb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-person-video3"></i>
+                        </div>
+                        <h4 class="service-title">Разовое занятие</h4>
+                        <p class="service-description">Единичная консультация с анализом текущих проблем и рекомендациями</p>
+                        <div class="service-price">1 500 руб.</div>
+                        <button class="btn-service" data-service="Разовое занятие">Записаться</button>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-play-circle"></i>
+                        </div>
+                        <h4 class="service-title">Анализ VOD</h4>
+                        <p class="service-description">Детальный разбор записи игры с письменным отчетом</p>
+                        <div class="service-price">800 руб.</div>
+                        <button class="btn-service" data-service="Анализ VOD">Записаться</button>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h4 class="service-title">Командная тренировка</h4>
+                        <p class="service-description">Занятие для всей команды с фокусом на взаимодействие</p>
+                        <div class="service-price">3 000 руб.</div>
+                        <button class="btn-service" data-service="Командная тренировка">Записаться</button>
+                    </div>
+                </div>
+            </div>
+            
+<!-- Гарантии -->
+            <div class="guarantee-section">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h3 class="guarantee-title">Гарантия результата</h3>
+                        <ul class="guarantee-list">
+                            <li><i class="bi bi-shield-check"></i> Если после прохождения курса вы не улучшите ранг - вернем 50% стоимости</li>
+                            <li><i class="bi bi-chat-left-text"></i> Бесплатная первая консультация для оценки вашего уровня</li>
+                            <li><i class="bi bi-credit-card"></i> Возможность оплаты в рассрочку</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- Футер -->
+        <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Контакты:</h3>
+                    <p>Email: valcorch@coach.com</p>
+                    <p>Discord: valcorch#0001</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Социальные сети:</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-twitch"></i> Twitch</a>
+                        <a href="#"><i class="bi bi-youtube"></i> YouTube</a>
+                        <a href="#"><i class="bi bi-telegram"></i> Telegram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Окно заявки -->
+    <div class="modal-overlay" id="application-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Оставить заявку</h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="form-content">
+                    <form id="application-form">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Ваше имя *</label>
+                            <input type="text" id="name" class="form-control" required placeholder="Введите ваше имя">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="email">Электронная почта *</label>
+                            <input type="email" id="email" class="form-control" required placeholder="example@mail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="discord">Discord или Telegram</label>
+                            <input type="text" id="discord" class="form-control" placeholder="@username">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="current-rank">Текущий ранг</label>
+                            <select id="current-rank" class="form-select">
+                                <option value="">Выберите ваш ранг</option>
+                                <option value="Iron">Iron</option>
+                                <option value="Bronze">Bronze</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Gold">Gold</option>
+                                <option value="Platinum">Platinum</option>
+                                <option value="Diamond">Diamond</option>
+                                <option value="Ascendant">Ascendant</option>
+                                <option value="Immortal">Immortal</option>
+                                <option value="Radiant">Radiant</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="service-type">Тип услуги *</label>
+                            <select id="service-type" class="form-select" required>
+                                <option value="">Выберите услугу</option>
+                                <option value="Базовый курс">Базовый курс - 12 000 руб.</option>
+                                <option value="Продвинутый курс">Продвинутый курс - 18 000 руб.</option>
+                                <option value="Профессиональный курс">Профессиональный курс - 25 000 руб.</option>
+                                <option value="Разовое занятие">Разовое занятие - 1 500 руб.</option>
+                                <option value="Анализ VOD">Анализ VOD - 800 руб.</option>
+                                <option value="Командная тренировка">Командная тренировка - 3 000 руб.</option>
+                                <option value="Другое">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="message">Дополнительная информация</label>
+                            <textarea id="message" class="form-control form-textarea" placeholder="Расскажите о ваших целях, проблемах или задайте вопросы..."></textarea>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" class="btn-cancel" id="form-cancel">Отмена</button>
+                            <button type="submit" class="btn-submit">Отправить заявку</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="success-message" id="success-message">
+                    <div class="success-icon">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+                    <h3 class="success-title">Заявка отправлена!</h3>
+                    <p class="success-text">Спасибо за вашу заявку. Мы свяжемся с вами в течение 24 часов для обсуждения деталей обучения.</p>
+                    <button class="btn-submit" id="success-close">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Уведомление о скорой доступности -->
+    <div class="coming-soon-notice" id="coming-soon-notice">
+        <button class="notice-close" id="notice-close">&times;</button>
+        <strong>Форма заявки скоро будет доступна!</strong>
+        <p>Мы работаем над улучшением функционала. Сейчас вы можете оставить предварительную заявку через форму.</p>
+    </div>
+
+    <script>
+        const modal = document.getElementById('application-modal');
+        const modalClose = document.getElementById('modal-close');
+        const formCancel = document.getElementById('form-cancel');
+        const openApplicationLink = document.getElementById('open-application-link');
+        const selectButtons = document.querySelectorAll('.btn-select, .btn-service');
+        const applicationForm = document.getElementById('application-form');
+        const formContent = document.getElementById('form-content');
+        const successMessage = document.getElementById('success-message');
+        const successClose = document.getElementById('success-close');
+        const serviceTypeSelect = document.getElementById('service-type');
+        const comingSoonNotice = document.getElementById('coming-soon-notice');
+        const noticeClose = document.getElementById('notice-close');
+        
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                comingSoonNotice.style.display = 'block';
+            }, 2000);
+        });
+        
+        noticeClose.addEventListener('click', function() {
+            comingSoonNotice.style.display = 'none';
+        });
+        
+        function openModal(service = '') {
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+            
+            if (service) {
+                serviceTypeSelect.value = service;
+            }
+            
+            formContent.style.display = 'block';
+            successMessage.style.display = 'none';
+            
+            comingSoonNotice.style.display = 'none';
+            
+            document.getElementById('name').focus();
+        }
+        
+        function closeModal() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+
+            applicationForm.reset();
+        }
+        
+        openApplicationLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            openModal();
+        });
+        
+        selectButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const service = this.getAttribute('data-course') || this.getAttribute('data-service');
+                openModal(service);
+            });
+        });
+        
+        modalClose.addEventListener('click', closeModal);
+        formCancel.addEventListener('click', closeModal);
+        successClose.addEventListener('click', closeModal);
+        
+        applicationForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
